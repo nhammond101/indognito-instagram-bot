@@ -4,6 +4,7 @@ const config = {
     password: process.env.PASSWORD || '',
   },
   job: {
+    // TODO: currate list of hashtags
     hashtags: ['like4like', 'follow4follow', 'followforfollow', 'likeforlike'],
     numberOfPosts: Number(process.env.NUMBER_OF_POSTS) || 20,
     unfollow: Number(process.env.NUMBER_OF_UNFOLLOW) || 20,
